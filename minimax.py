@@ -216,6 +216,7 @@ def bots_play_game(board):
 
     print_indexed_matrix(board)
 
+
 def user_play_game(board):
     prev_eval = 0
     evaluation = 1
