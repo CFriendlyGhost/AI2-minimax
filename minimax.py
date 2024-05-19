@@ -1,6 +1,6 @@
 import sys
 
-from Node import Node
+from node import Node
 from auxiliary_functions import (
     check_positions_distances_value,
     restore_move,
@@ -12,7 +12,7 @@ from auxiliary_functions import (
     euclidean_distance,
     timeit
 )
-from Halma import create_halma_board, check_possible_moves
+from halma import create_halma_board, check_possible_moves
 
 
 def minimax(

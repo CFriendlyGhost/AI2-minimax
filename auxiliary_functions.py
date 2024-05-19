@@ -1,7 +1,7 @@
 import time
 from functools import wraps
 
-from Node import Node
+from node import Node
 import numpy as np
 
 
